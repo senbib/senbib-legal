@@ -2,150 +2,345 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Senbib - Politiques Légales</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f8f9fa;
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    .container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      margin: 20px 0;
+    }
+    
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #e9ecef;
+    }
+    
+    h1 {
+      color: #1e88e5;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    
+    h2 {
+      color: #1976d2;
+      font-size: 1.8em;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e9ecef;
+    }
+    
+    h3 {
+      color: #1565c0;
+      font-size: 1.3em;
+      margin: 25px 0 15px 0;
+    }
+    
+    .last-updated {
+      color: #666;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+    
+    .section {
+      margin-bottom: 30px;
+    }
+    
+    .numbered-list {
+      list-style-type: none;
+      counter-reset: section;
+    }
+    
+    .numbered-list li {
+      margin-bottom: 20px;
+      padding-left: 40px;
+      position: relative;
+    }
+    
+    .numbered-list li:before {
+      content: counter(section) ".";
+      counter-increment: section;
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-weight: bold;
+      color: #1976d2;
+      background: #e3f2fd;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9em;
+    }
+    
+    .sub-list {
+      list-style-type: none;
+      margin: 10px 0 10px 20px;
+    }
+    
+    .sub-list li {
+      margin-bottom: 8px;
+      padding-left: 25px;
+      position: relative;
+    }
+    
+    .sub-list li:before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #1976d2;
+      font-weight: bold;
+    }
+    
+    p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+    
+    .highlight {
+      background: #e3f2fd;
+      padding: 15px;
+      border-radius: 8px;
+      border-left: 4px solid #1976d2;
+      margin: 15px 0;
+    }
+    
+    .contact-info {
+      background: #e8f5e8;
+      padding: 20px;
+      border-radius: 8px;
+      border-left: 4px solid #4caf50;
+      margin: 20px 0;
+    }
+    
+    .email {
+      color: #1976d2;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    
+    .email:hover {
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+        margin: 10px 0;
+      }
+      
+      h1 {
+        font-size: 2em;
+      }
+      
+      h2 {
+        font-size: 1.5em;
+      }
+      
+      .numbered-list li {
+        padding-left: 35px;
+      }
+      
+      .numbered-list li:before {
+        width: 25px;
+        height: 25px;
+        font-size: 0.8em;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Politiques légales de Senbib</h1>
-
-  <h2>Politique de Confidentialité</h2>
-  <p>
-    Politique de Confidentialité – Senbib
-
-Dernière mise à jour : 19/09/2025
-Bienvenue sur Senbib. Nous respectons votre vie privée et nous nous engageons à protéger vos données personnelles. Cette Politique de confidentialité explique quelles informations nous collectons et comment elles sont utilisées.
-
-1. Informations que nous collectons
-
-Lorsque vous utilisez Senbib, nous pouvons collecter les informations suivantes :
-
-Adresse e-mail (lors de l’inscription).
-
-Mot de passe (chiffré et jamais partagé).
-
-Informations liées à votre rôle dans l’application (lecteur ou auteur).
-
-Historique d’achats et de livres consultés.
-
-2. Utilisation des informations
-
-Les informations collectées sont utilisées uniquement pour :
-
-Créer et gérer votre compte.
-
-Vous permettre d’acheter et de lire des livres numériques.
-
-Améliorer le fonctionnement de l’application.
-
-Garantir la sécurité des transactions et des données.
-
-3. Partage des données
-
-Nous ne partageons jamais vos informations personnelles avec des tiers, sauf si cela est requis par la loi.
-
-4. Paiements
-
-Les paiements sont traités par des prestataires externes sécurisés (par exemple, Money Fusion).
-Nous ne stockons pas vos informations bancaires.
-
-5. Sécurité
-
-Nous mettons en place des mesures techniques et organisationnelles pour protéger vos informations contre tout accès non autorisé.
-
-6. Vos droits
-
-Vous avez le droit de :
-
-Accéder à vos données.
-
-Modifier ou supprimer vos informations.
-
-Fermer votre compte à tout moment.
-
-Pour exercer ces droits, contactez-nous à : senbib.sn@gmail.com.
-
-7. Contact
-
-Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter à : senbib.sn@gmail.com
-  </p>
-
-  <h2>Conditions d’Utilisation</h2>
-  <p>
-    Conditions d’utilisation – Senbib
-
-Dernière mise à jour : 19/09/2025.
-Bienvenue sur Senbib. En utilisant notre application, vous acceptez les présentes Conditions d’utilisation. Veuillez les lire attentivement.
-
-Définitions
-
-Auteur : utilisateur qui publie et vend ses œuvres numériques (livres, manuscrits, etc.) sur Senbib.
-
-Lecteur : utilisateur qui achète et lit des œuvres via Senbib.
-
-Plateforme Senbib : l’application mobile et ses services associés, permettant la mise en relation entre auteurs et lecteurs.
-
-Partie 1 : Conditions pour les Auteurs (utilisateurs vendeurs)
-
-1. Publication de livres
-
-Les auteurs peuvent soumettre leurs manuscrits et fichiers numériques pour vente sur la plateforme.
-
-Les fichiers soumis sont sécurisés et chiffrés afin d’éviter la copie, le partage ou la distribution non autorisée.
-
-L’auteur conserve l’entière propriété intellectuelle de ses œuvres.
-
-2. Commission et paiements
-
-La plateforme applique une commission de 25 % sur chaque vente effectuée.
-
-L’auteur perçoit 75 % du montant de chaque vente, via les moyens de paiement disponibles.
-
-Les paiements sont traités uniquement après validation des transactions par le prestataire de paiement partenaire.
-
-3. Responsabilité de l’auteur
-
-L’auteur s’engage à publier uniquement des œuvres dont il détient les droits.
-
-L’auteur est seul responsable en cas de litige lié au contenu publié (plagiat, contenu illégal, etc.).
-
-Partie 2 : Conditions pour les Lecteurs (utilisateurs acheteurs)
-
-1. Accès et utilisation
-
-Le lecteur doit créer un compte pour acheter et lire des livres sur Senbib.
-
-Chaque achat donne accès au livre uniquement à l’intérieur de l’application Senbib.
-
-Les livres achetés ne peuvent pas être copiés, partagés ni exportés en dehors de la plateforme.
-
-2. Paiements
-
-Les paiements sont sécurisés et traités par des prestataires externes.
-
-Les achats sont considérés comme définitifs et non remboursables, sauf erreur technique avérée.
-
-3. Responsabilité du lecteur
-
-Le lecteur s’engage à respecter les droits d’auteur et à ne pas tenter de contourner les systèmes de protection.
-
-Toute tentative de fraude ou de piratage pourra entraîner la suspension du compte.
-
-Dispositions générales
-
-Suspension de compte
-
-La plateforme se réserve le droit de suspendre ou supprimer tout compte (auteur ou lecteur) en cas de violation des présentes conditions.
-
-Limitation de responsabilité
-
-Senbib met tout en œuvre pour assurer un service fiable et sécurisé, mais ne garantit pas une disponibilité continue ni une absence totale d’erreurs techniques.
-
-Modifications des conditions
-
-Ces conditions peuvent être modifiées à tout moment. Les utilisateurs seront informés via l’application ou les canaux officiels.
-
-Contact
-
-📧 Pour toute question, contactez-nous à : senbib.sn@gmail.com
-  </p>
+  <div class="container">
+    <header>
+      <h1>Politiques légales de Senbib</h1>
+      <p class="last-updated">Dernière mise à jour : 19/09/2025</p>
+    </header>
+
+    <section id="privacy-policy">
+      <h2>Politique de Confidentialité</h2>
+      
+      <div class="section">
+        <p>Bienvenue sur Senbib. Nous respectons votre vie privée et nous nous engageons à protéger vos données personnelles. Cette Politique de confidentialité explique quelles informations nous collectons et comment elles sont utilisées.</p>
+      </div>
+
+      <div class="section">
+        <h3>1. Informations que nous collectons</h3>
+        <p>Lorsque vous utilisez Senbib, nous pouvons collecter les informations suivantes :</p>
+        <ul class="sub-list">
+          <li>Adresse e-mail (lors de l'inscription)</li>
+          <li>Mot de passe (chiffré et jamais partagé)</li>
+          <li>Informations liées à votre rôle dans l'application (lecteur ou auteur)</li>
+          <li>Historique d'achats et de livres consultés</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>2. Utilisation des informations</h3>
+        <p>Les informations collectées sont utilisées uniquement pour :</p>
+        <ul class="sub-list">
+          <li>Créer et gérer votre compte</li>
+          <li>Vous permettre d'acheter et de lire des livres numériques</li>
+          <li>Améliorer le fonctionnement de l'application</li>
+          <li>Garantir la sécurité des transactions et des données</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>3. Partage des données</h3>
+        <p>Nous ne partageons jamais vos informations personnelles avec des tiers, sauf si cela est requis par la loi.</p>
+      </div>
+
+      <div class="section">
+        <h3>4. Paiements</h3>
+        <p>Les paiements sont traités par des prestataires externes sécurisés (par exemple, Money Fusion).</p>
+        <p>Nous ne stockons pas vos informations bancaires.</p>
+      </div>
+
+      <div class="section">
+        <h3>5. Sécurité</h3>
+        <p>Nous mettons en place des mesures techniques et organisationnelles pour protéger vos informations contre tout accès non autorisé.</p>
+      </div>
+
+      <div class="section">
+        <h3>6. Vos droits</h3>
+        <p>Vous avez le droit de :</p>
+        <ul class="sub-list">
+          <li>Accéder à vos données</li>
+          <li>Modifier ou supprimer vos informations</li>
+          <li>Fermer votre compte à tout moment</li>
+        </ul>
+        <p>Pour exercer ces droits, contactez-nous à l'adresse indiquée ci-dessous.</p>
+      </div>
+
+      <div class="contact-info">
+        <h3>7. Contact</h3>
+        <p>Si vous avez des questions concernant cette politique de confidentialité, vous pouvez nous contacter à :</p>
+        <p><a href="mailto:senbib.sn@gmail.com" class="email">senbib.sn@gmail.com</a></p>
+      </div>
+    </section>
+
+    <section id="terms-of-use">
+      <h2>Conditions d'Utilisation</h2>
+      
+      <div class="section">
+        <p>Bienvenue sur Senbib. En utilisant notre application, vous acceptez les présentes Conditions d'utilisation. Veuillez les lire attentivement.</p>
+      </div>
+
+      <div class="section">
+        <h3>Définitions</h3>
+        <ul class="sub-list">
+          <li><strong>Auteur</strong> : utilisateur qui publie et vend ses œuvres numériques sur Senbib</li>
+          <li><strong>Lecteur</strong> : utilisateur qui achète et lit des œuvres via Senbib</li>
+          <li><strong>Plateforme Senbib</strong> : l'application mobile et ses services associés</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Partie 1 : Conditions pour les Auteurs</h3>
+        
+        <div class="highlight">
+          <h4>1. Publication de livres</h4>
+          <ul class="sub-list">
+            <li>Les auteurs peuvent soumettre leurs manuscrits pour vente sur la plateforme</li>
+            <li>Les fichiers sont sécurisés et chiffrés contre la copie non autorisée</li>
+            <li>L'auteur conserve l'entière propriété intellectuelle de ses œuvres</li>
+          </ul>
+        </div>
+
+        <div class="highlight">
+          <h4>2. Commission et paiements</h4>
+          <ul class="sub-list">
+            <li>Commission de 25% sur chaque vente</li>
+            <li>L'auteur perçoit 75% du montant de chaque vente</li>
+            <li>Paiements traités après validation des transactions</li>
+          </ul>
+        </div>
+
+        <div class="highlight">
+          <h4>3. Responsabilité de l'auteur</h4>
+          <ul class="sub-list">
+            <li>Publication uniquement d'œuvres dont les droits sont détenus</li>
+            <li>Responsabilité en cas de litige lié au contenu publié</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Partie 2 : Conditions pour les Lecteurs</h3>
+        
+        <div class="highlight">
+          <h4>1. Accès et utilisation</h4>
+          <ul class="sub-list">
+            <li>Création de compte requise pour l'achat et la lecture</li>
+            <li>Accès aux livres uniquement dans l'application Senbib</li>
+            <li>Interdiction de copie, partage ou exportation</li>
+          </ul>
+        </div>
+
+        <div class="highlight">
+          <h4>2. Paiements</h4>
+          <ul class="sub-list">
+            <li>Paiements sécurisés par des prestataires externes</li>
+            <li>Achats définitifs et non remboursables (sauf erreur technique)</li>
+          </ul>
+        </div>
+
+        <div class="highlight">
+          <h4>3. Responsabilité du lecteur</h4>
+          <ul class="sub-list">
+            <li>Respect des droits d'auteur obligatoire</li>
+            <li>Suspension de compte en cas de fraude ou piratage</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Dispositions générales</h3>
+        
+        <div class="highlight">
+          <h4>Suspension de compte</h4>
+          <p>La plateforme se réserve le droit de suspendre ou supprimer tout compte en cas de violation des conditions.</p>
+        </div>
+
+        <div class="highlight">
+          <h4>Limitation de responsabilité</h4>
+          <p>Senbib met tout en œuvre pour assurer un service fiable, mais ne garantit pas une disponibilité continue ni une absence totale d'erreurs techniques.</p>
+        </div>
+
+        <div class="highlight">
+          <h4>Modifications des conditions</h4>
+          <p>Ces conditions peuvent être modifiées à tout moment. Les utilisateurs seront informés via l'application.</p>
+        </div>
+      </div>
+
+      <div class="contact-info">
+        <h3>Contact</h3>
+        <p>📧 Pour toute question, contactez-nous à :</p>
+        <p><a href="mailto:senbib.sn@gmail.com" class="email">senbib.sn@gmail.com</a></p>
+      </div>
+    </section>
+  </div>
 </body>
 </html>
